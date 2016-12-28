@@ -1,0 +1,13 @@
+---
+
+- hosts: all
+  roles:
+    - weareinteractive.apt
+    - franklinkim.newrelic
+    - franklinkim.php7
+    - franklinkim.php7-newrelic
+  vars:
+    apt_repositories:
+      - 'ppa:ondrej/php7-oldstable'
+    newrelic_license_key: ab2fa361cd4d0d373833cad619d7bcc424d27c16
+    php7_newrelic_appname: "My App"

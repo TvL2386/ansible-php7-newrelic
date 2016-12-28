@@ -1,0 +1,21 @@
+---
+# newrelic_license_key: yourkey
+
+# Sets the name of the file to send log messages to.
+php7_newrelic_logfile: /var/log/newrelic/php_agent.log
+# Sets the level of detail to include in the log file.
+php7_newrelic_loglevel: info
+# Sets the name of the file to send daemon log messages to.
+php7_newrelic_daemon_logfile: /var/log/newrelic/newrelic-daemon.log
+# Sets the level of detail to include in the daemon log.
+php7_newrelic_daemon_loglevel: info
+# Enables high security for all applications.
+php7_newrelic_high_security: no
+# Sets the name of the application that metrics will be reported into.
+php7_newrelic_appname: myapp
+# Sets the desination location of the newrelic.ini file
+php7_newrelic_config_dest: /etc/php/7.0/mods-available
+
+# Sets wether apache should be restarted
+php7_newrelic_php_daemon_notify: no
+php7_newrelic_php_daemon_notify_handler: restart apache
