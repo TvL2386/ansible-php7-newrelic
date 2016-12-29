@@ -1,6 +1,6 @@
-# Ansible tvl2386.php7-newrelic role
+# Ansible TvL2386.php7-newrelic role
 
-> `tvl2386.php7-newrelic` is an [Ansible](http://www.ansible.com) role, forked from [franklinkim.php5-newrelic](https://github.com/weareinteractive/ansible-php5-newrelic) v1.2.2 which:
+> `TvL2386.php7-newrelic` is an [Ansible](http://www.ansible.com) role, forked from [franklinkim.php5-newrelic](https://github.com/weareinteractive/ansible-php5-newrelic) v1.2.2 which:
 >
 > * installs newrelic php agent
 > * configures newrelic php agent
@@ -10,19 +10,19 @@
 Using `ansible-galaxy`:
 
 ```shell
-$ ansible-galaxy install tvl2386.php7-newrelic
+$ ansible-galaxy install TvL2386.php7-newrelic
 ```
 
 Using `requirements.yml`:
 
 ```yaml
-- src: tvl2386.php7-newrelic
+- src: TvL2386.php7-newrelic
 ```
 
 Using `git`:
 
 ```shell
-$ git clone https://github.com/tvl2386/ansible-php7-newrelic.git tvl2386.php7-newrelic
+$ git clone https://github.com/TvL2386/ansible-php7-newrelic.git TvL2386.php7-newrelic
 ```
 
 ## Dependencies
@@ -70,7 +70,7 @@ This is an example playbook:
     - geerlingguy.apache
     - geerlingguy.php
     - franklinkim.newrelic
-    - tvl2386.php7-newrelic
+    - TvL2386.php7-newrelic
   vars:
     newrelic_license_key: ab2fa361cd4d0d373833cad619d7bcc424d27c16
     php7_newrelic_appname: "My App"
