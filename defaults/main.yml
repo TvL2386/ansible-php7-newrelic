@@ -14,7 +14,7 @@ php7_newrelic_high_security: no
 # Sets the name of the application that metrics will be reported into.
 php7_newrelic_appname: myapp
 # Sets the desination location of the newrelic.ini file
-php7_newrelic_config_dest: /etc/php/7.0/mods-available
+php7_newrelic_config_dest: /etc/php/7.1/mods-available
 
 # Sets wether apache should be restarted
 php7_newrelic_php_daemon_notify: no
